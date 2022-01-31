@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #343a40;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyboard {
+  display: flex;
+}
+
+.keyboard__key {
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.keyboard__key_white {
+  width: 100px;
+  height: 440px;
+  background-color: #f8f9fa;
+  border-right: 4px solid #343a40;
+  border-left: 4px solid #343a40;
+}
+
+.keyboard__key_white:hover {
+  background-color: #dee2e6;
+}
+
+.keyboard__key_black {
+  width: 76px;
+  height: 290px;
+  margin: 0 -38px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #212529;
+  z-index: 2;
+}
+
+.keyboard__key_black:hover {
+  background-color: #343a40;
+}
