@@ -39,6 +39,10 @@ body {
   background-color: #dee2e6;
 }
 
+.keyboard__key_white.keyboard__key_pressed {
+  background-color: #adb5bd;
+}
+
 .keyboard__key_black {
   width: 76px;
   height: 290px;
@@ -51,4 +55,8 @@ body {
 
 .keyboard__key_black:hover {
   background-color: #343a40;
+}
+
+.keyboard__key_black.keyboard__key_pressed {
+  background-color: #495057;
 }
